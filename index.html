@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Tables</title>
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid bg">
+            <div class="container mb-0 ">
+             <h1 class="text-center bg-dark text-light py-3">Bootstrap Learning | Tables</h1>
+             </div>
+    
+      
+  <div class="container">
+    <table class="table table-primary text-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td class="table-success">Arshad</td>
+                <td>Hanif</td>
+                <td>arshadsarkarofficial@gmail.com</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>JS</td>
+                <td>Bangladesh</td>
+                <td class="table-warning">support@jsbangladesh.com</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Hanif</td>
+                <td>Sarkar</td>
+                <td>arshadsarkarofficial@gmail.com</td>
+            </tr>
+
+            <tr class="table-light text-dark">
+                <th scope="row">4</th>
+                <td>Hanif</td>
+                <td>Sarkar</td>
+                <td>arshadsarkarofficial@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+     <h1 class="text-center my-2">Table Hover & Stripe</h1>
+  <div class="container">
+      <table class="table table-dark text-light  table-hover table-striped">
+          <thead>
+              <tr>
+                  <th>Roll</th>
+                  <th>Name</th>
+                  <th>Class</th>
+                   <th>Scholarship</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>01</td>
+                  <td>Arshad Sarkar Hanif</td>
+                  <td>10</td>
+                  <td>General</td>
+              </tr>
+              <tr>
+                <td>02</td>
+                <td>Saidur Rahman Setu</td>
+                <td>10</td>
+                <td>Talentpool</td>
+            </tr>
+            <tr >
+                <td>03</td>
+                <td>JS Bangladesh</td>
+                <td>10</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Mastering web Design</td>
+                <td>10</td>
+                <td>General</td>
+            </tr>
+          </tbody>
+      </table>
+  </div>
+  <h1 class="text-center my-2">Border Table</h1>
+  <div class="container">
+      <table class="table table-bordered table-success border-dark table-md text-center ">
+          <thead>
+              <tr class="table-light">
+                  <th>First</th>
+                  <th>Last</th>
+                  <th>Handle</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Mark</td>
+                  <td>Matto</td>
+                  <td>@matto</td>
+              </tr>
+              <tr>
+                <td>Mark</td>
+                <td>Matto</td>
+                <td>@matto</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>Matto</td>
+                <td>@matto</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>Matto</td>
+                <td>@matto</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>Matto</td>
+                <td>@matto</td>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>Matto</td>
+                <td>@matto</td>
+            </tr>
+          </tbody>
+      </table>
+  </div>
+
+  <h1 class="text-center my-2">Border Caption</h1>
+  <div class="container">
+    <table class="table caption-bottom">
+        <caption>List of users</caption>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
